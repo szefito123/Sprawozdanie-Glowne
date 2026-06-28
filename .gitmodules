@@ -1,24 +1,24 @@
 [submodule "rozdzial_2/rozdzial_27"]
 	path = rozdzial_2/rozdzial_27
 	url = https://github.com/szefito123/Sprawozdanie.git
-[submodule "rozdzial_2/rozdzial_21"]
-	path = rozdzial_2/rozdzial_21
+[submodule "rozdzial_2/rozdzial_21/Sprzet-dla-bazy-danych"]
+	path = rozdzial_2/rozdzial_21/Sprzet-dla-bazy-danych
 	url = https://github.com/karaskamil/Sprzet-dla-bazy-danych.git
-[submodule "rozdzial_2/rozdzial_22"]
-	path = rozdzial_2/rozdzial_22
+[submodule "rozdzial_2/rozdzial_22/Bazy_Danych_Tematyczne_Repo_MK"]
+	path = rozdzial_2/rozdzial_22/Bazy_Danych_Tematyczne_Repo_MK
 	url = https://github.com/Youarecheck/Bazy_Danych_Tematyczne_Repo_MK.git
-[submodule "rozdzial_2/rozdzial_23"]
-	path = rozdzial_2/rozdzial_23
+[submodule "rozdzial_2/rozdzial_23/Bazy-danych-temat"]
+	path = rozdzial_2/rozdzial_23/Bazy-danych-temat
 	url = https://github.com/pawlos1337/Bazy-danych-temat.git
-[submodule "rozdzial_2/rozdzial_24"]
-	path = rozdzial_2/rozdzial_24
+[submodule "rozdzial_2/rozdzial_24/monitorowanie_i_diagnostyka"]
+	path = rozdzial_2/rozdzial_24/monitorowanie_i_diagnostyka
 	url = https://github.com/OskarProgrammer/monitorowanie_i_diagnostyka.git
-[submodule "rozdzial_2/rozdzial_25"]
-	path = rozdzial_2/rozdzial_25
+[submodule "rozdzial_2/rozdzial_25/Tematyczne"]
+	path = rozdzial_2/rozdzial_25/Tematyczne
 	url = https://github.com/KMachoK/Tematyczne.git
-[submodule "rozdzial_2/rozdzial_26"]
-	path = rozdzial_2/rozdzial_26
+[submodule "rozdzial_2/rozdzial_26/Partycjonowani-Danych"]
+	path = rozdzial_2/rozdzial_26/Partycjonowani-Danych
 	url = https://github.com/domino0472/Partycjonowani-Danych.git
-[submodule "rozdzial_2/rozdzial_28"]
-	path = rozdzial_2/rozdzial_28
+[submodule "rozdzial_2/rozdzial_28/Kopie-zapasowe-i-odzyskiwanie-danych"]
+	path = rozdzial_2/rozdzial_28/Kopie-zapasowe-i-odzyskiwanie-danych
 	url = https://github.com/Koko9077/Kopie-zapasowe-i-odzyskiwanie-danych.git
