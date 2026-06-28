@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0,os.path.abspath('.'))
 
 project = 'Sprawozdanie'
-copyright = '2026, Mateusz Gałecki 284352'
+copyright = '2026, Mateusz'
 author = 'Mateusz'
 
 extensions = [
