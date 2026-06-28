@@ -1,5 +1,5 @@
 ======================
-2 Badania literaturowe
+Badania literaturowe
 ======================
 
 .. toctree::

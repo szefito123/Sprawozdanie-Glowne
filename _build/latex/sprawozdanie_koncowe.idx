@@ -1,0 +1,12 @@
+\indexentry{module@\spxentry{module}!zapytania\_kino@\spxentry{zapytania\_kino}|hyperpage}{41}
+\indexentry{zapytania\_kino@\spxentry{zapytania\_kino}!module@\spxentry{module}|hyperpage}{41}
+\indexentry{pg\_kategoryzacja\_filmow() (w module zapytania\_kino)@\spxentry{pg\_kategoryzacja\_filmow()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{pg\_najnowsze\_filmy\_w\_malych\_salach() (w module zapytania\_kino)@\spxentry{pg\_najnowsze\_filmy\_w\_malych\_salach()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{pg\_szczegoly\_najdluzszego\_filmu() (w module zapytania\_kino)@\spxentry{pg\_szczegoly\_najdluzszego\_filmu()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{pg\_wspolne\_seanse\_intersect() (w module zapytania\_kino)@\spxentry{pg\_wspolne\_seanse\_intersect()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{pg\_zaawansowane\_zestawienie\_filmow() (w module zapytania\_kino)@\spxentry{pg\_zaawansowane\_zestawienie\_filmow()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{sqlite\_filmy\_archiwalne\_i\_premium() (w module zapytania\_kino)@\spxentry{sqlite\_filmy\_archiwalne\_i\_premium()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{sqlite\_pojemnosc\_sal\_dla\_dlugich\_filmow() (w module zapytania\_kino)@\spxentry{sqlite\_pojemnosc\_sal\_dla\_dlugich\_filmow()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{sqlite\_puste\_sale() (w module zapytania\_kino)@\spxentry{sqlite\_puste\_sale()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{sqlite\_raport\_popularnosci\_filmow() (w module zapytania\_kino)@\spxentry{sqlite\_raport\_popularnosci\_filmow()}\spxextra{w module zapytania\_kino}|hyperpage}{41}
+\indexentry{sqlite\_seanse\_wielkie\_litery() (w module zapytania\_kino)@\spxentry{sqlite\_seanse\_wielkie\_litery()}\spxextra{w module zapytania\_kino}|hyperpage}{41}

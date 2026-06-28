@@ -1,0 +1,122 @@
+\babel@toc {polish}{}\relax 
+\contentsline {chapter}{\numberline {1}Rozdzial 1}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Badania literaturowe}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sprzęt dla bazy danych}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Wstęp}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Procesor (CPU)}{3}{subsection.2.1.2}%
+\contentsline {subsubsection}{Wydajność Jednowątkowa vs Wielordzeniowość}{3}{subsubsection*.3}%
+\contentsline {subsubsection}{Topologia NUMA (Non\sphinxhyphen {}Uniform Memory Access)}{3}{subsubsection*.4}%
+\contentsline {subsubsection}{Znaczenie Pamięci Podręcznej (Cache L3)}{4}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {2.1.3}Pamięć RAM}{4}{subsection.2.1.3}%
+\contentsline {subsubsection}{Mechanizm Buforowania Danych}{4}{subsubsection*.6}%
+\contentsline {subsubsection}{Wymóg Technologii ECC (Error\sphinxhyphen {}Correcting Code)}{4}{subsubsection*.7}%
+\contentsline {subsubsection}{Parametry Wydajnościowe: Przepustowość i Opóźnienia}{5}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {2.1.4}Pamięć Masowa}{5}{subsection.2.1.4}%
+\contentsline {subsubsection}{Klasyfikacja Nośników i Ich Przydatność}{5}{subsubsection*.9}%
+\contentsline {subsubsection}{Fizyczna Separacja Architektury Plików}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{Żywotność i Wytrzymałość Zapisu (DWPD)}{6}{subsubsection*.11}%
+\contentsline {subsection}{\numberline {2.1.5}Kontrolery i Interfejsy Pamięci}{6}{subsection.2.1.5}%
+\contentsline {subsubsection}{Sprzętowy RAID vs Software\sphinxhyphen {}Defined Storage}{6}{subsubsection*.12}%
+\contentsline {subsubsection}{Wybór Poziomu RAID pod Kątem Baz Danych}{6}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {2.1.6}Zasilanie i Niezawodność}{7}{subsection.2.1.6}%
+\contentsline {subsubsection}{Nadmiarowość Zasilaczy i Niezależne Linie Zasilające}{7}{subsubsection*.14}%
+\contentsline {subsubsection}{Infrastruktura UPS i Agregaty Prądotwórcze}{7}{subsubsection*.15}%
+\contentsline {subsubsection}{Zapobieganie Zjawisku „Torn Writes”}{7}{subsubsection*.16}%
+\contentsline {subsection}{\numberline {2.1.7}Podsumowanie}{7}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Konfiguracja bazy danych PostgreSQL}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Wstęp}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Podstawowe parametry}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Lokalizacja i struktura katalogów PostgreSQL}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Środowiska i profile}{9}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Automatyzacja}{10}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Przykłady}{10}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Najlepsze praktyki}{10}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Podsumowanie}{10}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Szczegółowe omówienie plików konfiguracyjnych}{11}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}postgresql.conf}{11}{subsection.2.2.10}%
+\contentsline {subsubsection}{Najważniejsze parametry}{11}{subsubsection*.17}%
+\contentsline {paragraph}{Połączenia sieciowe}{11}{paragraph*.18}%
+\contentsline {paragraph}{Pamięć i wydajność}{12}{paragraph*.19}%
+\contentsline {paragraph}{Logowanie}{12}{paragraph*.20}%
+\contentsline {paragraph}{Bezpieczeństwo}{13}{paragraph*.21}%
+\contentsline {paragraph}{Replikacja i WAL}{13}{paragraph*.22}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{13}{subsubsection*.23}%
+\contentsline {subsubsection}{Weryfikacja konfiguracji}{14}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {2.2.11}pg\_hba.conf}{14}{subsection.2.2.11}%
+\contentsline {subsubsection}{Składnia wpisu}{15}{subsubsection*.25}%
+\contentsline {subsubsection}{Najczęściej używane metody uwierzytelniania}{15}{subsubsection*.26}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{16}{subsubsection*.27}%
+\contentsline {subsubsection}{Najlepsze praktyki}{16}{subsubsection*.28}%
+\contentsline {subsection}{\numberline {2.2.12}pg\_ident.conf}{16}{subsection.2.2.12}%
+\contentsline {subsubsection}{Zastosowanie}{17}{subsubsection*.29}%
+\contentsline {subsubsection}{Składnia wpisu}{17}{subsubsection*.30}%
+\contentsline {subsubsection}{Przykładowa konfiguracja}{17}{subsubsection*.31}%
+\contentsline {subsubsection}{Najlepsze praktyki}{18}{subsubsection*.32}%
+\contentsline {section}{\numberline {2.3}Kontrola i konserwacja}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Wprowadzenie i planowanie konserwacji}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Zarządzanie stanem serwera i sesjami}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Proces Vacuum}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Zarządzanie transakcjami i schematy (SCHEMA)}{19}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Zarządzanie indeksami}{20}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Podsumowanie}{20}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Monitorowanie i diagnostyka}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Wstęp}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Sesje i użytkownicy}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Śledzenie dostępu użytkowników do tabel}{22}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Błędy dziennika, logi i raporty}{22}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Monitorowanie na poziomie systemu operacyjnego}{23}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Monitorowanie serwera}{23}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Znaczenie monitorowania i diagnostyki w bazach danych}{23}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Podsumowanie}{24}{subsection.2.4.8}%
+\contentsline {subsection}{\numberline {2.4.9}Źródła}{24}{subsection.2.4.9}%
+\contentsline {section}{\numberline {2.5}Wydajność, skalowanie i replikacja}{24}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Wydajność, skalowanie i replikacja}{24}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Kontrola i buforowanie połączeń z bazą danych}{24}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}INDEX i CLUSTER}{25}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Rola i zastosowanie replikacji}{25}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Oprogramowanie i zaimplementowane mechanizmy replikacji}{26}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Limity systemu oraz ograniczanie dostępu użytkowników}{26}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Testy wydajności sprzętu na poziomie systemu operacyjnego}{27}{subsection.2.5.7}%
+\contentsline {section}{\numberline {2.6}Partycjonowanie danych}{27}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Bezpieczeństwo}{27}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Wstęp teoretyczny}{27}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Uwierzytelnianie i Kontrola Dostępu}{27}{subsection.2.7.2}%
+\contentsline {subsubsection}{PostgreSQL}{27}{subsubsection*.40}%
+\contentsline {subsubsection}{SQLite}{28}{subsubsection*.41}%
+\contentsline {subsection}{\numberline {2.7.3}Autoryzacja i Uprawnienia}{28}{subsection.2.7.3}%
+\contentsline {subsubsection}{PostgreSQL}{28}{subsubsection*.42}%
+\contentsline {subsubsection}{SQLite}{28}{subsubsection*.43}%
+\contentsline {subsection}{\numberline {2.7.4}Szyfrowanie Danych}{29}{subsection.2.7.4}%
+\contentsline {subsubsection}{PostgreSQL}{29}{subsubsection*.44}%
+\contentsline {subsubsection}{SQLite}{29}{subsubsection*.45}%
+\contentsline {subsection}{\numberline {2.7.5}Audyt i Logowanie}{29}{subsection.2.7.5}%
+\contentsline {subsubsection}{PostgreSQL}{29}{subsubsection*.46}%
+\contentsline {subsubsection}{SQLite}{29}{subsubsection*.47}%
+\contentsline {subsection}{\numberline {2.7.6}Podsumowanie}{30}{subsection.2.7.6}%
+\contentsline {section}{\numberline {2.8}Kopie zapasowe i odzyskiwanie danych}{30}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Wstęp}{30}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Tworzenie kopii zapasowej całego systemu PostgreSQL \sphinxhyphen {} mechanizmy wbudowane}{30}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Tworzenie kopii zapasowych poszczególnych baz danych \sphinxhyphen {} mechanizmy wbudowane}{31}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Odzyskiwanie usuniętych lub uszkodzonych danych}{31}{subsection.2.8.4}%
+\contentsline {subsubsection}{Odtwarzanie tabel i innych obiektów logicznych}{32}{subsubsection*.48}%
+\contentsline {subsubsection}{Odtwarzanie usuniętej bazy danych}{32}{subsubsection*.49}%
+\contentsline {subsubsection}{Odtwarzanie przestrzeni tabel i pełnego klastra}{32}{subsubsection*.50}%
+\contentsline {subsubsection}{PITR i odzyskiwanie stanu sprzed błędu}{32}{subsubsection*.51}%
+\contentsline {subsection}{\numberline {2.8.5}Dedykowane oprogramowanie i skrypty zewnętrzne do automatyzacji}{33}{subsection.2.8.5}%
+\contentsline {subsection}{\numberline {2.8.6}Podsumowanie}{33}{subsection.2.8.6}%
+\contentsline {chapter}{\numberline {3}Planowanie baz danych i tworzenie dokumentacji}{34}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wybór zagadnienia i opis procesów}{34}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Prototypowe dane}{34}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Model konceptualny}{35}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Model logiczny i normalizacja}{35}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Model fizyczny bazy danych}{36}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Definiowanie bazy danych i wprowadzanie danych}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Definiowanie struktury bazy danych}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Wybór mechanizmów wsadowego wprowadzania danych}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Komentarz do procesu wprowadzania danych}{39}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Zapytania do bazy danych}{40}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Lokalizacja}{40}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Opis funkcji}{40}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Dokumentacja kodu}{41}{section.5.3}%
+\contentsline {chapter}{Indeks modułów Pythona}{42}{section*.63}%
+\contentsline {chapter}{Indeks}{43}{section*.64}%

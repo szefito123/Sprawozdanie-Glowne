@@ -1,28 +1,38 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+sys.path.insert(0,os.path.abspath('.'))
 
-project = 'Sprawozdanie_koncowe'
-copyright = '2026, Ja'
-author = 'Ja'
-release = '1.0'
+project = 'Sprawozdanie'
+copyright = '2026, Mateusz'
+author = 'Mateusz'
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.viewcode'
+]
 
-extensions = []
+autodoc_mock_imports = ['psycopg2']
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+latex_engine = 'pdflatex'
 
+latex_elements = {
+    # Rozmiar strony i czcionka
+    'papersize': 'a4paper',
+    'pointsize': '12pt',
+    
+    'preamble': r'''
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+''',
+    
+    'extraclassoptions': 'openany,oneside',
+}
+
+latex_documents = [
+    ('index', 'sprawozdanie_koncowe.tex', 'Sprawozdanie bazy danych',
+     'Mateusz', 'manual'),
+]
+
+master_doc = 'index'
 language = 'pl'
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'alabaster'
-html_static_path = ['_static']

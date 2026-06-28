@@ -1,10 +1,10 @@
 ===========================================================
-Rozdzial 4. Definiowanie bazy danych i wprowadzanie danych
+Definiowanie bazy danych i wprowadzanie danych
 ===========================================================
 
-:Autor: Mateusz Gałecki
+Autor: Mateusz Gałecki
 
-4.1 Definiowanie struktury bazy danych
+Definiowanie struktury bazy danych
 -----------------------------------------
 
 Na podstawie modeli fizycznych z rozdziału 3 przygotowałem skrypt pozwalający na utworzenie struktury tabel.
@@ -58,7 +58,7 @@ Na podstawie modeli fizycznych z rozdziału 3 przygotowałem skrypt pozwalający
        czas_rozpoczecia DATETIME NOT NULL
    );
 
-4.2 Wybór mechanizmów wsadowego wprowadzania danych
+Wybór mechanizmów wsadowego wprowadzania danych
 -----------------------------------------------------
 
 Gotowe tabele musiałem uzupełnić danymi. Brałem pod uwage następujące mechanizmy wsadowego wprowadzania danych:
@@ -69,8 +69,8 @@ Gotowe tabele musiałem uzupełnić danymi. Brałem pod uwage następujące mech
 Zdecydowałem sie na stworzenie skryptu w pythonie który na podstawie prototypowych danych generuje zapytania wykorzystujące funkcje "INSERT". Dzięki temu wygenerowany plik pasuje do baz danych
 
 
-4.3 Komentarz do procesu wprowadzania danych
+Komentarz do procesu wprowadzania danych
 ---------------------------------------------
 
 1. W pierwszej kolejności zapełnione zostały tabele "filmy" oraz "sale" aby wygenerować na nich klucze główne.
-2. Później dane są wprowadzane do tabeli "seanse" aby nie wystąpiła sytułacja z naruszeniem klucza obcego.
+2. Później dane są wprowadzane do tabeli "seanse" aby nie wystąpiła sytuacja z naruszeniem klucza obcego.

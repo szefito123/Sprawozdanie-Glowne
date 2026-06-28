@@ -1,10 +1,10 @@
 ===========================================================
-Rozdział 3. Planowanie baz danych i tworzenie dokumentacji
+Planowanie baz danych i tworzenie dokumentacji
 ===========================================================
 
-:Autor: Mateusz Gałecki 
+Autor: Mateusz Gałecki 
 
-3.1 Wybór zagadnienia i opis procesów
+Wybór zagadnienia i opis procesów
 ---------------------------------------
 
 Do stworzenia wybrałem baze danych obsługującą system kina.
@@ -15,7 +15,7 @@ Do stworzenia wybrałem baze danych obsługującą system kina.
 * **Zarządzanie infrastrukturą:** Dane o salach kinowych ich pojemności i sprzedaży biletów
 * **Planowanie repertuaru:** Przypisanie filmów dla konkretnych sal
 
-3.2 Prototypowe dane
+Prototypowe dane
 ---------------------
 
 Prototypowe pliki w formatach CSV i JSON.
@@ -40,7 +40,7 @@ Prototypowe pliki w formatach CSV i JSON.
      "czas_rozpoczecia": "2026-06-25 18:00:00"
    }
 
-3.3 Model konceptualny
+Model konceptualny
 -----------------------
 
 Podzieliłem to na następujące elementy:
@@ -53,7 +53,7 @@ Podzieliłem to na następujące elementy:
 	:alt: Model w notacji Chena
 	:align: center
 
-3.4 Model logiczny i normalizacja
+Model logiczny i normalizacja
 -------------------------------------
 
 Dane z prototypu poddałem normalizacji osiągając 3 postać normalną (3NF).
@@ -72,7 +72,7 @@ Związki miedzy znormalizowanymi tabelami maja postać 1:N
 
 
 
-3.5 Model fizyczny bazy danych
+Model fizyczny bazy danych
 -------------------------------
 
 Model bazy danych z podziałem na PostgreSQL i SQLite

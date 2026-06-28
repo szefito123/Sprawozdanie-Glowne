@@ -1,2 +1,0 @@
-Kontrola i konserwacja
-======================
