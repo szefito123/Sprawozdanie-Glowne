@@ -1,7 +1,6 @@
-=====================================================
-Rozdział 3
-Planowanie baz danych i tworzenie dokumentacji
-=====================================================
+===========================================================
+Rozdział 3. Planowanie baz danych i tworzenie dokumentacji
+===========================================================
 
 :Autor: Mateusz Gałecki 
 :nr.indeksu: 284352
@@ -12,6 +11,7 @@ Planowanie baz danych i tworzenie dokumentacji
 Do stworzenia wybrałem baze danych obsługującą system kina.
 
 **Opis głównych procesów:**
+
 * **Zarządzanie katalogiem filmów:** Wprowadzanie danych filmowych
 * **Zarządzanie infrastrukturą:** Dane o salach kinowych ich pojemności i sprzedaży biletów
 * **Planowanie repertuaru:** Przypisanie filmów dla konkretnych sal
