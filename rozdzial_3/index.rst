@@ -3,7 +3,6 @@ Rozdział 3. Planowanie baz danych i tworzenie dokumentacji
 ===========================================================
 
 :Autor: Mateusz Gałecki 
-:nr.indeksu: 284352
 
 3.1 Wybór zagadnienia i opis procesów
 ---------------------------------------
