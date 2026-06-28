@@ -1,7 +1,7 @@
 ============================
 Zapytania do bazy danych
 ============================
-
+Autor: Mateusz Gałecki
 
 Stworzyłem funkcje w języku python obsługujące zapytania Postgres i SQLite
 
