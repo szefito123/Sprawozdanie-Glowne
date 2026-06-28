@@ -13,8 +13,6 @@ def generuj_zapytania_insert(plik_csv, plik_sql):
             tytul = wiersz['tytul']
             rok = wiersz['rok_produkcji']
             czas = wiersz['czas_trwania']
-
-            # Zamiana apostrofów dla poprawności składni SQL
             wartosci = f"('{tytul.replace(\"'\", \"''\")}', {rok}, {czas})"
             dane_wierszy.append(wartosci)
 
