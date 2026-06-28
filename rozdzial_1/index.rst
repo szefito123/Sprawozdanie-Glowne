@@ -8,15 +8,15 @@ Użyte repozytoria
 ------------------
 
 Poniżej zamieszczam linki do wykorzystywanych repozytoriów 
-* **Moje Repozytorium:** https://github.com/szefito123/Sprawozdanie-Glowne
+* **Moje Repozytorium:** `Sprawozdanie <https://github.com/szefito123/Sprawozdanie-Glowne>`_
 * **Repozytoria kolegów użyte w rozdziale 2:**
-* `https://github.com/karaskamil/Sprzet-dla-bazy-danych`_
-* `https://github.com/Youarecheck/Bazy_Danych_Tematyczne_Repo_MK`_
-* `https://github.com/pawlos1337/Bazy-danych-temat`_
-* `https://github.com/OskarProgrammer/monitorowanie_i_diagnostyka`_
-* `https://github.com/KMachoK/Tematyczne`_
-* `https://github.com/domino0472/Partycjonowani-Danych`_
-* `https://github.com/Koko9077/Kopie-zapasowe-i-odzyskiwanie-danych`_
+  * `Sprzet dla bazy danych <https://github.com/karaskamil/Sprzet-dla-bazy-danych>`_
+  * `Bazy danych tematyczne MK <https://github.com/Youarecheck/Bazy_Danych_Tematyczne_Repo_MK>`_
+  * `Bazy danych temat <https://github.com/pawlos1337/Bazy-danych-temat>`_
+  * `Monitoring i diagnostyka <https://github.com/OskarProgrammer/monitorowanie_i_diagnostyka>`_
+  * `Tematyczne <https://github.com/KMachoK/Tematyczne>`_
+  * `Partycjonowanie danych <https://github.com/domino0472/Partycjonowani-Danych>`_
+  * `Kopie zapasowe <https://github.com/Koko9077/Kopie-zapasowe-i-odzyskiwanie-danych>`_
 
 
 Wnioski z przeprowadzonych ćwiczeń i eksperymentów w ramach zajęć laboratoryjnych  
