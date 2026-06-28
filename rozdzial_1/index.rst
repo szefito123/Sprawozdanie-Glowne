@@ -2,7 +2,7 @@
 Wstęp
 ==========
 
-Sprawozdanie stanowi podsumowanie prac laboratoryjnych z bazdami danych takimi jak Postgres i SQlite
+Sprawozdanie stanowi podsumowanie prac laboratoryjnych z bazdami danych takimi jak Postgres i SQlite na którch dużo pracowaliśmy ponzawalismy ich strukturę jak i zaawansowane techniki przetwarzania danych, a także wykorzystanie języka python do wykonywania zapytań na tch bazach danych 
 
 Użyte repozytoria
 ------------------
