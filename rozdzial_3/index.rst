@@ -18,24 +18,26 @@ Do stworzenia wybrałem baze danych obsługującą system kina.
 3.2 Prototypowe dane
 ---------------------
 
-Prototypowe pliki w formatach CSV i JSON
+Prototypowe pliki w formatach CSV i JSON.
 
 **Format CSV:**
 
 .. code-block:: text
+
    tytul_filmu,rok_produkcji,czas_trwania,nazwa_sali,pojemnosc,czas_rozpoczecia
    Matrix,1999,136,Sala 1,120,2026-06-25 18:00:00
 
 **Format JSON:**
 
 .. code-block:: json
+
    {
-   "tytul": "Matrix",
-   "rok_produkcji": 1999,
-   "czas_trwania": 136,
-   "nazwa_sali": "Sala 1",
-   "pojemnosc": 120,
-   "czas_rozpoczecia": "2026-06-25 18:00:00"
+     "tytul": "Matrix",
+     "rok_produkcji": 1999,
+     "czas_trwania": 136,
+     "nazwa_sali": "Sala 1",
+     "pojemnosc": 120,
+     "czas_rozpoczecia": "2026-06-25 18:00:00"
    }
 
 3.3 Model konceptualny
