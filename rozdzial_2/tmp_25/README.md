@@ -1,5 +1,0 @@
-# Tematyczne
-
-## Dokładnie tak
-
-# Tematyczne
