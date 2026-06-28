@@ -8,7 +8,7 @@ Stworzyłem funkcje w języku python obsługujące zapytania Postgres i SQLite
 Lokalizacja
 ------------
 * **Testowany Katalog:** Plik był testowany na serwerze Jupyterhub '/home/student08' oraz Postgres 'student08db1/student08@postgres'
-* **Link do repozytorium:** Plik nazywa się "zapytania_kino.py"
+* **Link do repozytorium:** Plik nazywa się "zapytania_kino.py" https://github.com/szefito123/Sprawozdanie-Glowne/blob/main/zapytania_kino.py
 
 Opis funkcji
 -------------
